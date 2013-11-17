@@ -1,0 +1,5 @@
+- What about some tool that would show, as votes were added to any GZ item, how the consensus classification of that galaxy changed? If not for all sources, could we make a tool that showed it for some solid examples, intermediate ones, and very unsure ones?
+
+- Extend the d3.js visualizations to GZ1, possibly in-progress GZH and GZC data
+
+- Look into Sankey diagrams for individual galaxies?
