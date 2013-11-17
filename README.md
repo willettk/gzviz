@@ -13,4 +13,4 @@ To run locally:
     python -m SimpleHTTPServer 3334
     ```
 
-    in working directory and go to localhost:3334 in the browser.
+in working directory and go to localhost:3334 in the browser.
