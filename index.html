@@ -23,50 +23,23 @@
 
 <div id="left-container">
 
-
-
 <div class="text">
 <h4>
-Animated Squarified, SliceAndDice and Strip TreeMaps    
+An Animated Squarified TreeMap for Galaxy Zoo 2
 </h4> 
+            <b>Hover</b> over a box to see an example image of a particular galaxy class.<br /><br /> 
+            <b>Refresh</b> the page to bring back the full tree.<br /><br /> 
 
-            In this example a static JSON tree is loaded into a Squarified Treemap.<br /><br />
-            <b>Left click</b> to set a node as root for the visualization.<br /><br />
-            <b>Right click</b> to set the parent node as root for the visualization.<br /><br />
-            You can <b>choose a different tiling algorithm</b> below:
+            The size of each box is proportional to the number of galaxies in it; the <b><FONT COLOR="#DF65B0">color</FONT></b> is proportional to the complexity of that class. <br /><br /> 
             
+            The <b>code</b> at the top of each box ('<b>Ei</b>','<b>Sb?t</b>', etc) gives the galaxy morphology class measured from the user consensus. <br /><br /> 
+            A full description is in the Appendix of the paper by <a href="http://mnras.oxfordjournals.org/content/435/4/2835">Willett et al. (2013)</a> <br /><br /> 
+
+            The data for <a href='http://zoo2.galaxyzoo.org'>Galaxy Zoo 2</a> can be downloaded at <a href="http://data.galaxyzoo.org">data.galaxyzoo.org</a>; code for this figure is <a href="https://github.com/willettk/gzviz">here</a>. <br /><br /> 
+            
+<h5> Treemap code adapted from <a href="http://philogb.github.io/jit/static/v20/Jit/Examples/Treemap/example1.html#">N.&nbsp;Garcia&nbsp;Belmonte</a>
             
 </div>
-
-<div id="id-list">
-<table>
-    <tr>
-        <td>
-            <label for="r-sq">Squarified </label>
-        </td>
-        <td>
-            <input type="radio" id="r-sq" name="layout" checked="checked" value="left" />
-        </td>
-    </tr>
-    <tr>
-         <td>
-            <label for="r-st">Strip </label>
-         </td>
-         <td>
-            <input type="radio" id="r-st" name="layout" value="top" />
-         </td>
-    <tr>
-         <td>
-            <label for="r-sd">SliceAndDice </label>
-          </td>
-          <td>
-            <input type="radio" id="r-sd" name="layout" value="bottom" />
-          </td>
-    </tr>
-</table>
-</div>
-
-<a id="back" href="#" class="theme button white">Go to Parent</a>
 
 
 </div>
